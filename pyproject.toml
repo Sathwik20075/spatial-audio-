@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spatial-sound"
+version = "0.1.1"
+description = "Spatial sound for headphones, speakers, wired and Bluetooth outputs"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "sounddevice>=0.4.6",
+  "soundfile>=0.12",
+]
+
+[project.scripts]
+spatial-sound = "spatial.cli:main"
+
+[tool.setuptools]
+packages = ["spatial"]

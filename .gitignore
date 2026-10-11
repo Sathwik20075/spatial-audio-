@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.wav
+!tests/fixtures/*.wav
+.DS_Store
+.idea/
+.vscode/
