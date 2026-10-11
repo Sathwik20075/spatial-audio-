@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3 - Release workflow included
+
+- Adds the `.github/workflows/release.yml` and `ci.yml` workflow files to the repository.
+- Builds Windows, macOS, and Linux executables and the Python package on each `v*` tag.
+
 ## 0.1.2 - Release pipeline fix
 
 - Complete project package: source, tests, CI and release workflows, MIT license.
